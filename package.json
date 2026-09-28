@@ -1,0 +1,25 @@
+{
+  "name": "pinterest-focus-replica",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.tsx",
+    "render": "node render.mjs && python3 compose.py",
+    "render:motion": "node render.mjs --motion && python3 compose.py --motion"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.354",
+    "@remotion/zod-types": "4.0.354",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.354",
+    "zod": "3.22.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.10",
+    "@types/react-dom": "19.1.9",
+    "prettier": "3.6.2",
+    "typescript": "5.9.2"
+  }
+}
